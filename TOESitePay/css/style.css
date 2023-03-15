@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    /*--bg-color: #222327;*/
+    --bg-color: #DADADA;
+    /*--text-color: #fff;*/
+    --text-color: #000000;
+    /*--main-color: #29fd53;*/
+}
+body{
+    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Rubik';
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo span{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+}
+
+
+.navbar a{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    font-family: 'Sudo Var';
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+/* BODY */
+
+.brain-notback{
+    position: absolute;
+    left: -100px;
+    transform: rotate(18.89deg);
+
+}
+
+.cub {
+    position: absolute;
+    width: 662px;
+    height: 667px;
+    border-radius: 55px;
+    background: linear-gradient(125.89deg, rgba(255, 77, 80, 0.75) -0.05%, rgba(233, 47, 47, 0.73) -0.05%, rgba(226, 115, 67, 0.98) 78.81%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(2px);
+    transform: rotate(13deg);
+    z-index: -1;
+    top: 50px;
+    left: -100px;
+}
+
+.name-text {
+    position: absolute;
+    bottom: 400px;
+    right: 150px;
+    position: absolute;
+    width: 650px;
+    height: 100px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+
+.desc-text{
+    position: absolute;
+    width: 473px;
+    height: 57px;
+    right: 330px;
+    bottom: 350px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.price {
+    position: absolute;
+    width: 116px;
+    height: 47px;
+    right: 690px;
+    bottom: 310px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+
+.button-down{
+    position: absolute;
+    width: 260px;
+    height: 35px;
+    right: 410px;
+    bottom: 315px;
+    background: #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+}
+
+.button-down:hover {
+    box-shadow: 5px 5px 5px #ffc107ad;
+    transition: all .50s ease;
+}
+
+.button-down span{
+    color: #fff;
+    font-size: 15px;
+}
+
+.info{
+    position: absolute;
+    width: 305px;
+    height: 350px;
+    right: 290px;
+    bottom: 170px;
+    font-family: 'Sudo Var';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.social{
+    position: absolute;
+    width: 305px;
+    height: 310px;
+    right: 270px;
+    bottom: 170px;
+    font-size: 20px;
+}
